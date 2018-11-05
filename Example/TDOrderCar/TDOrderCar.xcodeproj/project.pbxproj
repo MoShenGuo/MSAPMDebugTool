@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53792C3D217D6A620043B980 /* MSCrashReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 53792C3C217D6A620043B980 /* MSCrashReporter.m */; };
+		538F12332175D6B200589435 /* TDTestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538F12322175D6B200589435 /* TDTestController.swift */; };
+		53CBBB46216F42100013FBBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CBBB45216F42100013FBBB /* AppDelegate.swift */; };
+		53CBBB48216F42100013FBBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CBBB47216F42100013FBBB /* ViewController.swift */; };
+		53CBBB4B216F42100013FBBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53CBBB49216F42100013FBBB /* Main.storyboard */; };
+		53CBBB4D216F42110013FBBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53CBBB4C216F42110013FBBB /* Assets.xcassets */; };
+		53CBBB50216F42110013FBBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53CBBB4E216F42110013FBBB /* LaunchScreen.storyboard */; };
+		53CBBB5B216F42110013FBBB /* TDOrderCarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CBBB5A216F42110013FBBB /* TDOrderCarTests.swift */; };
+		53CBBB66216F42110013FBBB /* TDOrderCarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CBBB65216F42110013FBBB /* TDOrderCarUITests.swift */; };
+		53F40B93218A9E4B00448D51 /* AssistiveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F40B92218A9E4B00448D51 /* AssistiveButton.swift */; };
+		53F40B96218AA57800448D51 /* MSAPMDebugTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F40B95218AA57800448D51 /* MSAPMDebugTool.swift */; };
+		53F40B98218AA68600448D51 /* MSAssistButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F40B97218AA68600448D51 /* MSAssistButton.swift */; };
+		53F40B9A218AAA4600448D51 /* MSAPMListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F40B99218AAA4600448D51 /* MSAPMListViewController.swift */; };
+		53F40B9C218AAFDD00448D51 /* MSAPMTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F40B9B218AAFDD00448D51 /* MSAPMTableViewCell.swift */; };
+		53F40BA7218ADFEB00448D51 /* MSAPMListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F40BA6218ADFEB00448D51 /* MSAPMListModel.swift */; };
+		53F40BA9218B264600448D51 /* MSSandboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F40BA8218B264600448D51 /* MSSandboxViewController.swift */; };
+		53F40BAB218B26F500448D51 /* MSSandboxDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F40BAA218B26F500448D51 /* MSSandboxDetailViewController.swift */; };
+		53F40BAD218B280000448D51 /* MSSandboxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F40BAC218B280000448D51 /* MSSandboxTableViewCell.swift */; };
+		53F40BAF218B282100448D51 /* MSSandboxModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F40BAE218B282100448D51 /* MSSandboxModel.swift */; };
+		53F40BB1218BFED500448D51 /* MSBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F40BB0218BFED500448D51 /* MSBaseViewController.swift */; };
+		68639FEC07BCE46229ECB87E /* Pods_TDOrderCar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63651F2D7D0D67DCC7B957F4 /* Pods_TDOrderCar.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53CBBB57216F42110013FBBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53CBBB3A216F42100013FBBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53CBBB41216F42100013FBBB;
+			remoteInfo = TDOrderCar;
+		};
+		53CBBB62216F42110013FBBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53CBBB3A216F42100013FBBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53CBBB41216F42100013FBBB;
+			remoteInfo = TDOrderCar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53792C3A217D6A620043B980 /* TDOrderCar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TDOrderCar-Bridging-Header.h"; sourceTree = "<group>"; };
+		53792C3B217D6A620043B980 /* MSCrashReporter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSCrashReporter.h; sourceTree = "<group>"; };
+		53792C3C217D6A620043B980 /* MSCrashReporter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSCrashReporter.m; sourceTree = "<group>"; };
+		538F12322175D6B200589435 /* TDTestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDTestController.swift; sourceTree = "<group>"; };
+		53CBBB42216F42100013FBBB /* TDOrderCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDOrderCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53CBBB45216F42100013FBBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53CBBB47216F42100013FBBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		53CBBB4A216F42100013FBBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53CBBB4C216F42110013FBBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53CBBB4F216F42110013FBBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53CBBB51216F42110013FBBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53CBBB56216F42110013FBBB /* TDOrderCarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDOrderCarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53CBBB5A216F42110013FBBB /* TDOrderCarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDOrderCarTests.swift; sourceTree = "<group>"; };
+		53CBBB5C216F42110013FBBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53CBBB61216F42110013FBBB /* TDOrderCarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDOrderCarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53CBBB65216F42110013FBBB /* TDOrderCarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDOrderCarUITests.swift; sourceTree = "<group>"; };
+		53CBBB67216F42110013FBBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53F40B92218A9E4B00448D51 /* AssistiveButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssistiveButton.swift; sourceTree = "<group>"; };
+		53F40B95218AA57800448D51 /* MSAPMDebugTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSAPMDebugTool.swift; sourceTree = "<group>"; };
+		53F40B97218AA68600448D51 /* MSAssistButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSAssistButton.swift; sourceTree = "<group>"; };
+		53F40B99218AAA4600448D51 /* MSAPMListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSAPMListViewController.swift; sourceTree = "<group>"; };
+		53F40B9B218AAFDD00448D51 /* MSAPMTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSAPMTableViewCell.swift; sourceTree = "<group>"; };
+		53F40BA6218ADFEB00448D51 /* MSAPMListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSAPMListModel.swift; sourceTree = "<group>"; };
+		53F40BA8218B264600448D51 /* MSSandboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSSandboxViewController.swift; sourceTree = "<group>"; };
+		53F40BAA218B26F500448D51 /* MSSandboxDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSSandboxDetailViewController.swift; sourceTree = "<group>"; };
+		53F40BAC218B280000448D51 /* MSSandboxTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSSandboxTableViewCell.swift; sourceTree = "<group>"; };
+		53F40BAE218B282100448D51 /* MSSandboxModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSSandboxModel.swift; sourceTree = "<group>"; };
+		53F40BB0218BFED500448D51 /* MSBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSBaseViewController.swift; sourceTree = "<group>"; };
+		63651F2D7D0D67DCC7B957F4 /* Pods_TDOrderCar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDOrderCar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A94A2915B063F21421A90CF /* Pods-TDOrderCar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDOrderCar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TDOrderCar/Pods-TDOrderCar.debug.xcconfig"; sourceTree = "<group>"; };
+		BC5F27BA11D8862B326E751B /* Pods-TDOrderCar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDOrderCar.release.xcconfig"; path = "Pods/Target Support Files/Pods-TDOrderCar/Pods-TDOrderCar.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53CBBB3F216F42100013FBBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68639FEC07BCE46229ECB87E /* Pods_TDOrderCar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53CBBB53216F42110013FBBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53CBBB5E216F42110013FBBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53CBBB39216F42100013FBBB = {
+			isa = PBXGroup;
+			children = (
+				53CBBB44216F42100013FBBB /* TDOrderCar */,
+				53CBBB59216F42110013FBBB /* TDOrderCarTests */,
+				53CBBB64216F42110013FBBB /* TDOrderCarUITests */,
+				53CBBB43216F42100013FBBB /* Products */,
+				5729E14912E3046CAAD050C5 /* Pods */,
+				9F6B7DFC42A2305C2D7F013F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		53CBBB43216F42100013FBBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53CBBB42216F42100013FBBB /* TDOrderCar.app */,
+				53CBBB56216F42110013FBBB /* TDOrderCarTests.xctest */,
+				53CBBB61216F42110013FBBB /* TDOrderCarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53CBBB44216F42100013FBBB /* TDOrderCar */ = {
+			isa = PBXGroup;
+			children = (
+				53CBBB45216F42100013FBBB /* AppDelegate.swift */,
+				53CBBB47216F42100013FBBB /* ViewController.swift */,
+				538F12322175D6B200589435 /* TDTestController.swift */,
+				53792C3B217D6A620043B980 /* MSCrashReporter.h */,
+				53792C3C217D6A620043B980 /* MSCrashReporter.m */,
+				53F40B94218AA52100448D51 /* MSAPMDebugTool */,
+				53F40B92218A9E4B00448D51 /* AssistiveButton.swift */,
+				53CBBB49216F42100013FBBB /* Main.storyboard */,
+				53CBBB4C216F42110013FBBB /* Assets.xcassets */,
+				53CBBB4E216F42110013FBBB /* LaunchScreen.storyboard */,
+				53CBBB51216F42110013FBBB /* Info.plist */,
+				53792C3A217D6A620043B980 /* TDOrderCar-Bridging-Header.h */,
+			);
+			path = TDOrderCar;
+			sourceTree = "<group>";
+		};
+		53CBBB59216F42110013FBBB /* TDOrderCarTests */ = {
+			isa = PBXGroup;
+			children = (
+				53CBBB5A216F42110013FBBB /* TDOrderCarTests.swift */,
+				53CBBB5C216F42110013FBBB /* Info.plist */,
+			);
+			path = TDOrderCarTests;
+			sourceTree = "<group>";
+		};
+		53CBBB64216F42110013FBBB /* TDOrderCarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				53CBBB65216F42110013FBBB /* TDOrderCarUITests.swift */,
+				53CBBB67216F42110013FBBB /* Info.plist */,
+			);
+			path = TDOrderCarUITests;
+			sourceTree = "<group>";
+		};
+		53F40B94218AA52100448D51 /* MSAPMDebugTool */ = {
+			isa = PBXGroup;
+			children = (
+				53F40B95218AA57800448D51 /* MSAPMDebugTool.swift */,
+				53F40B97218AA68600448D51 /* MSAssistButton.swift */,
+				53F40BB0218BFED500448D51 /* MSBaseViewController.swift */,
+				53F40B99218AAA4600448D51 /* MSAPMListViewController.swift */,
+				53F40B9B218AAFDD00448D51 /* MSAPMTableViewCell.swift */,
+				53F40BA6218ADFEB00448D51 /* MSAPMListModel.swift */,
+				53F40BA8218B264600448D51 /* MSSandboxViewController.swift */,
+				53F40BAA218B26F500448D51 /* MSSandboxDetailViewController.swift */,
+				53F40BAC218B280000448D51 /* MSSandboxTableViewCell.swift */,
+				53F40BAE218B282100448D51 /* MSSandboxModel.swift */,
+			);
+			path = MSAPMDebugTool;
+			sourceTree = "<group>";
+		};
+		5729E14912E3046CAAD050C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A94A2915B063F21421A90CF /* Pods-TDOrderCar.debug.xcconfig */,
+				BC5F27BA11D8862B326E751B /* Pods-TDOrderCar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F6B7DFC42A2305C2D7F013F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63651F2D7D0D67DCC7B957F4 /* Pods_TDOrderCar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53CBBB41216F42100013FBBB /* TDOrderCar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53CBBB6A216F42110013FBBB /* Build configuration list for PBXNativeTarget "TDOrderCar" */;
+			buildPhases = (
+				ED0411A0721631501597CC24 /* [CP] Check Pods Manifest.lock */,
+				53CBBB3E216F42100013FBBB /* Sources */,
+				53CBBB3F216F42100013FBBB /* Frameworks */,
+				53CBBB40216F42100013FBBB /* Resources */,
+				BB9592B5A913D253317A2C40 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TDOrderCar;
+			productName = TDOrderCar;
+			productReference = 53CBBB42216F42100013FBBB /* TDOrderCar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53CBBB55216F42110013FBBB /* TDOrderCarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53CBBB6D216F42110013FBBB /* Build configuration list for PBXNativeTarget "TDOrderCarTests" */;
+			buildPhases = (
+				53CBBB52216F42110013FBBB /* Sources */,
+				53CBBB53216F42110013FBBB /* Frameworks */,
+				53CBBB54216F42110013FBBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53CBBB58216F42110013FBBB /* PBXTargetDependency */,
+			);
+			name = TDOrderCarTests;
+			productName = TDOrderCarTests;
+			productReference = 53CBBB56216F42110013FBBB /* TDOrderCarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		53CBBB60216F42110013FBBB /* TDOrderCarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53CBBB70216F42110013FBBB /* Build configuration list for PBXNativeTarget "TDOrderCarUITests" */;
+			buildPhases = (
+				53CBBB5D216F42110013FBBB /* Sources */,
+				53CBBB5E216F42110013FBBB /* Frameworks */,
+				53CBBB5F216F42110013FBBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53CBBB63216F42110013FBBB /* PBXTargetDependency */,
+			);
+			name = TDOrderCarUITests;
+			productName = TDOrderCarUITests;
+			productReference = 53CBBB61216F42110013FBBB /* TDOrderCarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53CBBB3A216F42100013FBBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					53CBBB41216F42100013FBBB = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+					53CBBB55216F42110013FBBB = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 53CBBB41216F42100013FBBB;
+					};
+					53CBBB60216F42110013FBBB = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 53CBBB41216F42100013FBBB;
+					};
+				};
+			};
+			buildConfigurationList = 53CBBB3D216F42100013FBBB /* Build configuration list for PBXProject "TDOrderCar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53CBBB39216F42100013FBBB;
+			productRefGroup = 53CBBB43216F42100013FBBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53CBBB41216F42100013FBBB /* TDOrderCar */,
+				53CBBB55216F42110013FBBB /* TDOrderCarTests */,
+				53CBBB60216F42110013FBBB /* TDOrderCarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53CBBB40216F42100013FBBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53CBBB50216F42110013FBBB /* LaunchScreen.storyboard in Resources */,
+				53CBBB4D216F42110013FBBB /* Assets.xcassets in Resources */,
+				53CBBB4B216F42100013FBBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53CBBB54216F42110013FBBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53CBBB5F216F42110013FBBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BB9592B5A913D253317A2C40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TDOrderCar/Pods-TDOrderCar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/HLAppMonitor/HLAppMonitor.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HLAppMonitor.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TDOrderCar/Pods-TDOrderCar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED0411A0721631501597CC24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TDOrderCar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53CBBB3E216F42100013FBBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F40B98218AA68600448D51 /* MSAssistButton.swift in Sources */,
+				53F40B9C218AAFDD00448D51 /* MSAPMTableViewCell.swift in Sources */,
+				53F40B9A218AAA4600448D51 /* MSAPMListViewController.swift in Sources */,
+				53792C3D217D6A620043B980 /* MSCrashReporter.m in Sources */,
+				53F40BA9218B264600448D51 /* MSSandboxViewController.swift in Sources */,
+				538F12332175D6B200589435 /* TDTestController.swift in Sources */,
+				53F40B93218A9E4B00448D51 /* AssistiveButton.swift in Sources */,
+				53F40BA7218ADFEB00448D51 /* MSAPMListModel.swift in Sources */,
+				53CBBB48216F42100013FBBB /* ViewController.swift in Sources */,
+				53F40BAF218B282100448D51 /* MSSandboxModel.swift in Sources */,
+				53F40B96218AA57800448D51 /* MSAPMDebugTool.swift in Sources */,
+				53F40BB1218BFED500448D51 /* MSBaseViewController.swift in Sources */,
+				53CBBB46216F42100013FBBB /* AppDelegate.swift in Sources */,
+				53F40BAB218B26F500448D51 /* MSSandboxDetailViewController.swift in Sources */,
+				53F40BAD218B280000448D51 /* MSSandboxTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53CBBB52216F42110013FBBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53CBBB5B216F42110013FBBB /* TDOrderCarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53CBBB5D216F42110013FBBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53CBBB66216F42110013FBBB /* TDOrderCarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53CBBB58216F42110013FBBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53CBBB41216F42100013FBBB /* TDOrderCar */;
+			targetProxy = 53CBBB57216F42110013FBBB /* PBXContainerItemProxy */;
+		};
+		53CBBB63216F42110013FBBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53CBBB41216F42100013FBBB /* TDOrderCar */;
+			targetProxy = 53CBBB62216F42110013FBBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53CBBB49216F42100013FBBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53CBBB4A216F42100013FBBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53CBBB4E216F42110013FBBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53CBBB4F216F42110013FBBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53CBBB68216F42110013FBBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53CBBB69216F42110013FBBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53CBBB6B216F42110013FBBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A94A2915B063F21421A90CF /* Pods-TDOrderCar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R4P699Z5PS;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				INFOPLIST_FILE = TDOrderCar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tuandai.com.TDOrderCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TDOrderCar/TDOrderCar-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53CBBB6C216F42110013FBBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC5F27BA11D8862B326E751B /* Pods-TDOrderCar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R4P699Z5PS;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				INFOPLIST_FILE = TDOrderCar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tuandai.com.TDOrderCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TDOrderCar/TDOrderCar-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		53CBBB6E216F42110013FBBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R4P699Z5PS;
+				INFOPLIST_FILE = TDOrderCarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tuandai.com.TDOrderCarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDOrderCar.app/TDOrderCar";
+			};
+			name = Debug;
+		};
+		53CBBB6F216F42110013FBBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R4P699Z5PS;
+				INFOPLIST_FILE = TDOrderCarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tuandai.com.TDOrderCarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDOrderCar.app/TDOrderCar";
+			};
+			name = Release;
+		};
+		53CBBB71216F42110013FBBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R4P699Z5PS;
+				INFOPLIST_FILE = TDOrderCarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tuandai.com.TDOrderCarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TDOrderCar;
+			};
+			name = Debug;
+		};
+		53CBBB72216F42110013FBBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R4P699Z5PS;
+				INFOPLIST_FILE = TDOrderCarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tuandai.com.TDOrderCarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TDOrderCar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53CBBB3D216F42100013FBBB /* Build configuration list for PBXProject "TDOrderCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53CBBB68216F42110013FBBB /* Debug */,
+				53CBBB69216F42110013FBBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53CBBB6A216F42110013FBBB /* Build configuration list for PBXNativeTarget "TDOrderCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53CBBB6B216F42110013FBBB /* Debug */,
+				53CBBB6C216F42110013FBBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53CBBB6D216F42110013FBBB /* Build configuration list for PBXNativeTarget "TDOrderCarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53CBBB6E216F42110013FBBB /* Debug */,
+				53CBBB6F216F42110013FBBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53CBBB70216F42110013FBBB /* Build configuration list for PBXNativeTarget "TDOrderCarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53CBBB71216F42110013FBBB /* Debug */,
+				53CBBB72216F42110013FBBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53CBBB3A216F42100013FBBB /* Project object */;
+}

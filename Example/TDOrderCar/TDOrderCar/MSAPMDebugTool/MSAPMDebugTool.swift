@@ -41,7 +41,7 @@ class MSAPMDebugTool: NSObject {
         let pan = UIPanGestureRecognizer.init(target: self, action: #selector(handlePan(_:)))
         assistButton.addGestureRecognizer(pan)   
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.init(uptimeNanoseconds: 1)) { 
-            UIApplication.shared.delegate!.window??.bringSubview(toFront:self.assistButton)
+            UIApplication.shared.delegate!.window??.bringSubviewToFront(self.assistButton)
         }
     }
     @objc private func handlePan(_ ges: UIPanGestureRecognizer) {
@@ -82,7 +82,7 @@ class MSAPMDebugTool: NSObject {
                 topController = topController?.presentedViewController
             }
             topController?.present(originNavController, animated: true, completion: {
-                UIApplication.shared.delegate!.window??.bringSubview(toFront:self.assistButton)
+                UIApplication.shared.delegate!.window??.bringSubviewToFront(self.assistButton)
             })
             //            DevButton.setTitle("Off", for: .normal)
         }

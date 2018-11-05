@@ -1,0 +1,32 @@
+
+ platform :ios, ‘8.0’
+use_frameworks!
+target 'TDOrderCar' do
+
+pod 'Moya/RxSwift' ,'8.0.5'
+pod 'SwiftyJSON'
+pod 'SnapKit', '~> 3.2.0'
+ pod 'HLAppMonitor', :path =>'/Users/apple/Desktop/APPTest/自动化测试Test/HLAppMonitor/HLAppMonitor.podspec’
+pod 'Bugly'
+use_frameworks!
+pod 'RealmSwift'
+
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        if ['库的名字'].include? target.name
+            target.build_configurations.each do |config|
+                config.build_settings['SWIFT_VERSION'] = '4.1'
+                config.build_settings['ONLY_ACTIVE_ARCH'] = 'NO'
+                config.build_settings['CODE_SIGN_STYLE'] = 'Automatic'
+            end
+            else
+            target.build_configurations.each do |config|
+                config.build_settings['SWIFT_VERSION'] = '3.3'
+                config.build_settings['ONLY_ACTIVE_ARCH'] = 'NO'
+                config.build_settings['CODE_SIGN_STYLE'] = 'Automatic'
+            end
+        end
+    end
+end
+
+end

@@ -89,11 +89,11 @@ class MSSandboxDetailViewController: MSBaseViewController {
         
     }
     func setContent(_ text: String) {
-        self.textView.text = text
+        textView.text = text
     }
     func setOriginalImage(_ originalImage: UIImage) {
-        let viewWidth: CGFloat = self.view.bounds.width
-        let viewHeight: CGFloat = self.view.bounds.height
+        let viewWidth: CGFloat = view.bounds.width
+        let viewHeight: CGFloat = view.bounds.height
         let imageWidth: CGFloat = originalImage.size.width
         let imageHeight: CGFloat = originalImage.size.height
         var isPortrait: Bool = false
