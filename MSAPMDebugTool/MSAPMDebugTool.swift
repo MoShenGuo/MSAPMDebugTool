@@ -7,10 +7,10 @@
 //
 
 import UIKit
-class MSAPMDebugTool: NSObject {
+public class MSAPMDebugTool: NSObject {
     
     // 单例
-    @objc static let shared: MSAPMDebugTool = MSAPMDebugTool()
+    @objc public static let shared: MSAPMDebugTool = MSAPMDebugTool()
     private override init() {
         super.init()
         
@@ -33,7 +33,7 @@ class MSAPMDebugTool: NSObject {
     
     private var originNavController: UINavigationController!
     
-    func start() {
+   public func start() {
         originNavController = UINavigationController.init(rootViewController: MSAPMListViewController())
         UIApplication.shared.delegate!.window??.addSubview(assistButton)
         assistButton.setTitle("APM", for: .normal)

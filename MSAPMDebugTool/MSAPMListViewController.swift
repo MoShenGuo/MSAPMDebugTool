@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import HLAppMonitor
+import MSAPM
 class MSAPMListViewController: MSBaseViewController {
 
     let TableViewCellIdentifier: String = "APMTableViewCellIdentifier"
@@ -46,38 +46,38 @@ class MSAPMListViewController: MSBaseViewController {
                 for model in dataSource {
                     model.isOn = isOn
                 }
-                TDPerformanceDataManager.sharedInstance()?.didChange(_TDMonitoringIndicatorsALL, withChangeStatus: isOn)
+                MSAPMManager.sharedInstance().didChange(_TDMonitoringIndicatorsALL, withChangeStatus: isOn)
                 tableView.reloadData()
                 break
             case 1://基本数据开关
                 let model = dataSource[selectRowAtIndexPath.row]
                 model.isOn = isOn
                 tableView.reloadRows(at: [selectRowAtIndexPath], with: .bottom)
-                TDPerformanceDataManager.sharedInstance()?.didChange(_TDMonitoringIndicatorsBase, withChangeStatus: isOn)
+                MSAPMManager.sharedInstance().didChange(_TDMonitoringIndicatorsBase, withChangeStatus: isOn)
                 break
             case 2://帧率FPS
                 let model = dataSource[selectRowAtIndexPath.row]
                 model.isOn = isOn
                 tableView.reloadRows(at: [selectRowAtIndexPath], with: .bottom)
-                TDPerformanceDataManager.sharedInstance()?.didChange(_TDMonitoringIndicatorsFPS, withChangeStatus: isOn)
+                MSAPMManager.sharedInstance().didChange(_TDMonitoringIndicatorsFPS, withChangeStatus: isOn)
                 break
             case 3://网络数据
                 let model = dataSource[selectRowAtIndexPath.row]
                 model.isOn = isOn
                 tableView.reloadRows(at: [selectRowAtIndexPath], with: .bottom)
-                TDPerformanceDataManager.sharedInstance()?.didChange(_TDMonitoringIndicatorsNetwork, withChangeStatus: isOn)
+                MSAPMManager.sharedInstance().didChange(_TDMonitoringIndicatorsNetwork, withChangeStatus: isOn)
                 break
             case 4://卡顿信息
                 let model = dataSource[selectRowAtIndexPath.row]
                 model.isOn = isOn
                 tableView.reloadRows(at: [selectRowAtIndexPath], with: .bottom)
-                TDPerformanceDataManager.sharedInstance()?.didChange(_TDMonitoringIndicatorsCaton, withChangeStatus: isOn)
+                MSAPMManager.sharedInstance().didChange(_TDMonitoringIndicatorsCaton, withChangeStatus: isOn)
                 break
             case 5://崩溃信息
                 let model = dataSource[selectRowAtIndexPath.row]
                 model.isOn = isOn
                 tableView.reloadRows(at: [selectRowAtIndexPath], with: .bottom)
-                TDPerformanceDataManager.sharedInstance()?.didChange(_TDMonitoringIndicatorsCrash, withChangeStatus: isOn)
+                MSAPMManager.sharedInstance().didChange(_TDMonitoringIndicatorsCrash, withChangeStatus: isOn)
                 break
             case 6://沙盒
                 break
@@ -164,7 +164,7 @@ extension MSAPMListViewController: UITableViewDataSource,UITableViewDelegate {
                 
                 alertController.addAction(UIAlertAction.init(title: "确认", style: .default, handler: {  (action) in
                     //清空txt文件
-                    TDPerformanceDataManager.sharedInstance().clearTxt()
+                    MSAPMManager.sharedInstance().clearTxt()
                 }))
                 
                 DispatchQueue.main.async {
@@ -172,7 +172,7 @@ extension MSAPMListViewController: UITableViewDataSource,UITableViewDelegate {
                 }
             }else if indexPath.row == 2 {//存入沙盒
                 //写入沙盒
-                TDPerformanceDataManager.sharedInstance().writeSandbox()
+                MSAPMManager.sharedInstance().writeSandbox()
             }
         }
         

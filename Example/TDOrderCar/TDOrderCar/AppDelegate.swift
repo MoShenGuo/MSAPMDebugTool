@@ -8,8 +8,8 @@
 
 import UIKit
 import Bugly
-import HLAppMonitor
-
+import MSAPM
+import MSAPMDebugTool
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -33,8 +33,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // 卡顿监控判断间隔
         config.blockMonitorTimeout = 1
         Bugly.start(withAppId: appId, config: config)
-        TDPerformanceDataManager.sharedInstance().startToCollectPerformanceData()
-              MSAPMDebugTool.shared.start()
+        MSAPMManager.sharedInstance().startToCollectPerformanceData()
+    
+    
+       MSAPMDebugTool.shared.start()
         return true
     }
 
@@ -46,7 +48,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationDidEnterBackground(_ application: UIApplication) {
         // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
         // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
-         TDPerformanceDataManager.sharedInstance()?.stopUploadResourceData()
+       // MSAPMManager.sharedInstance().stopUploadResourceData()
     }
 
     func applicationWillEnterForeground(_ application: UIApplication) {

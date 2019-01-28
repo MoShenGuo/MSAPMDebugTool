@@ -1,15 +1,17 @@
 
- platform :ios, ‘8.0’
-use_frameworks!
-target 'TDOrderCar' do
+platform :ios, ‘8.0’
 
+target 'TDOrderCar' do
+pod 'MSAPM', :path =>'/Users/apple/Desktop/APPTest/自动化测试Test/MSAPM/MSAPM.podspec’
+pod 'MSAPMDebugTool', :path =>'/Users/apple/Desktop/APPTest/自动化测试Test/MSAPMDebugTool/MSAPMDebugTool.podspec’
+pod 'Bugly'
+
+use_frameworks!
 pod 'Moya/RxSwift' ,'8.0.5'
 pod 'SwiftyJSON'
 pod 'SnapKit', '~> 3.2.0'
- pod 'HLAppMonitor', :path =>'/Users/apple/Desktop/APPTest/自动化测试Test/HLAppMonitor/HLAppMonitor.podspec’
-pod 'Bugly'
-use_frameworks!
-pod 'RealmSwift'
+#use_frameworks!
+#pod 'RealmSwift'
 
 post_install do |installer|
     installer.pods_project.targets.each do |target|

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import HLAppMonitor
+import MSAPM
 class MSSandboxDetailViewController: MSBaseViewController {
 
     var filePath: String?
@@ -56,7 +56,7 @@ class MSSandboxDetailViewController: MSBaseViewController {
     @objc private func emptyPerformanceData() {
         
         //清空txt文件
-        TDPerformanceDataManager.sharedInstance().clearTxt()
+        //TDPerformanceDataModel.sharedInstance().clearTxt()
         loadData(filePath)
     }
     func loadData(_ filePath: String?) {
